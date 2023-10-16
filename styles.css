@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to specific elements using IDs */
+#header_wrap {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#project_title {
+    font-size: 36px;
+}
+
+#main_content_wrap {
+    padding: 20px;
+}
+
+#privacy-policy {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Apply styles to specific elements using tags */
+h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer_wrap {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Apply styles to specific elements within other elements */
+#footer_wrap a {
+    color: #fff;
+}
+
+/* Apply styles to specific class */
+.outer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #project_title {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
